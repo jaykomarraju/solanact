@@ -44,12 +44,15 @@ const Button = styled.button`
     }
 `;
 
+
+
 const AppUnAuthR = () => {
     
         return (
             <Container>
     
-                <Button>Connect Wallet</Button>
+                <Link to="/login"><Button>Log In</Button></Link>
+                <Link to="/signup"><Button>Sign Up</Button></Link>
     
             </Container>
         )

@@ -86,11 +86,3 @@ pub enum ErrorCode {
     #[msg("Invalid interaction type.")]
     InvalidInteractionType,
 }
-
-// This application can be summarized as follows:
-// 1. The contract is initialized with a bump seed and the authority
-// 2. The contract creates an interaction with a user, which is a like, retweet, reply, or follow
-// 3. The user pays a fee to the contract's token account
-// 4. The contract creates an interaction with the user's information
-// 5. The contract's token account is credited with the fee
-// 6. The user's token account is debited with the fee
