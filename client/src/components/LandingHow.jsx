@@ -41,7 +41,7 @@ const Title = styled.h1`
 const DescStepNumber = styled.p`
   font-size: 20px;
   width: 100px;
-  font-weight: 300;
+  font-weight: 800;
   color: #327467;
   text-transform: uppercase;
 `;
